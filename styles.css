@@ -1,11 +1,13 @@
-.moviePic{
-	height:500px;
-	width:250px;
-	opacity:1.0;
+.moviePic {
+	height: 500px;
+	width: 250px;
+	opacity: 1.0;
 }
-.movieDetail{
-	position:static;
+
+.movieDetail {
+	position: relative;   /* better than static for top to work */
 	top: 50px;
-	text-align:center;
-	font-size:40px;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
 }
